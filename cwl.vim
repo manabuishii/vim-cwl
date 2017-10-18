@@ -4,7 +4,7 @@
 " Latest Revision: 2017-10-18
 
 " Download
-"  curl -o ~/.vim/syntax/cwl.vim http://raw.github.com/
+"  curl -o ~/.vim/syntax/cwl.vim https://raw.githubusercontent.com/manabuishii/vim-cwl/master/cwl.vim
 " Add .vimrc
 "  autocmd FileType cwl set iskeyword+=-
 "  autocmd FileType cwl set iskeyword+=.
