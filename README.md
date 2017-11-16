@@ -3,6 +3,7 @@
 # Download
 
 ```
+mkdir -p ~/.vim/syntax
 curl -o ~/.vim/syntax/cwl.vim https://raw.githubusercontent.com/manabuishii/vim-cwl/master/cwl.vim
 ```
 
