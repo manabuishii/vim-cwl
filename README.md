@@ -1,16 +1,26 @@
 # vim-cwl
 
-# Download
+> Syntax for [Common Workflow Language](http://www.commonwl.org/)
 
-```
-mkdir -p ~/.vim/syntax
-curl -o ~/.vim/syntax/cwl.vim https://raw.githubusercontent.com/manabuishii/vim-cwl/master/cwl.vim
+## Install
+
+### vim-plug
+
+```vim
+Plug 'manabuishii/vim-cwl'
 ```
 
-# Add .vimrc
+### pathogen
 
+```sh
+git clone https://github.com/manabuishii/vim-cwl ~/.vim/bundle/vim-cwl
 ```
-autocmd FileType cwl set iskeyword+=-
-autocmd FileType cwl set iskeyword+=.
-au BufRead,BufNewFile *.cwl set filetype=cwl
+
+### Manual installation
+
+```sh
+git clone https://github.com/manabuishii/vim-cwl /tmp/vim-cwl
+cp /tmp/vim-cwl/syntax/cwl.vim ~/.vim/syntax
+cp /tmp/vim-cwl/ftdetect/cwl.vim ~/.vim/ftdetect
+cp /tmp/vim-cwl/ftplugin/cwl.vim ~/.vim/ftplugin
 ```
